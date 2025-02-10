@@ -7,6 +7,13 @@
 % Voor een voorstel in het Engels: voeg de documentclass-optie [english] toe.
 % Let op: kan enkel na toestemming van de bachelorproefcoördinator!
 \documentclass{hogent-article}
+\usepackage{lipsum} % Voor vultekst
+\usepackage{tabularx} % Voor tabellen met vaste breedte
+\usepackage{pifont}
+\usepackage{rotating}
+\usepackage{pdflscape}
+
+\usepackage[capposition=top]{floatrow}
 
 % Invoegen bibliografiebestand
 \addbibresource{voorstel.bib}
@@ -20,23 +27,17 @@
 % \course{Bachelor thesis}
 % \assignmenttype{Research proposal}
 
-\academicyear{2022-2023} % TODO: pas het academiejaar aan
+\academicyear{2024-2025}
 
 % TODO: Werktitel
-\title{Vul hier de voorgestelde titel van je onderzoek in}
+\title{Low-code softwareontwikkeling: Een vergelijkende studie van low-code platformen voor de digitalisatie van KMO’s}
 
 % TODO: Studentnaam en emailadres invullen
-\author{Ernst Aarden}
-\email{ernst.aarden@student.hogent.be}
-
-% TODO: Medestudent
-% Gaat het om een bachelorproef in samenwerking met een student in een andere
-% opleiding? Geef dan de naam en emailadres hier
-% \author{Yasmine Alaoui (naam opleiding)}
-% \email{yasmine.alaoui@student.hogent.be}
+\author{Glenn Vereecken}
+\email{glenn.vereecken@student.hogent.be}
 
 % TODO: Geef de co-promotor op
-\supervisor[Co-promotor]{S. Beekman (Synalco, \href{mailto:sigrid.beekman@synalco.be}{sigrid.beekman@synalco.be})}
+\supervisor[Co-promotor]{B. Goossens (Green Bananas, \href{mailto:ben@greenbananas.be}{ben@greenbananas.be})}
 
 % Binnen welke specialisatierichting uit 3TI situeert dit onderzoek zich?
 % Kies uit deze lijst:
@@ -50,13 +51,12 @@
 %   zelf
 %
 \specialisation{Mobile \& Enterprise development}
-\keywords{Scheme, World Wide Web, $\lambda$-calculus}
+\keywords{Low-code, webapplicatie, software ontwikkeling, digitalisatie, KMO's}
 
 \begin{document}
 
 \begin{abstract}
-  Hier schrijf je de samenvatting van je voorstel, als een doorlopende tekst van één paragraaf. Let op: dit is geen inleiding, maar een samenvattende tekst van heel je voorstel met inleiding (voorstelling, kaderen thema), probleemstelling en centrale onderzoeksvraag, onderzoeksdoelstelling (wat zie je als het concrete resultaat van je bachelorproef?), voorgestelde methodologie, verwachte resultaten en meerwaarde van dit onderzoek (wat heeft de doelgroep aan het resultaat?).
-\end{abstract}
+  In een snel evoluerende technologische maatschappij groeit de behoefte aan digitalisering dagelijks. Bedrijven kunnen steeds meer waarde vinden in een digitale voetafdruk. Sinds de coronapandemie zijn jongere generaties vertrouwd geraakt met online winkelen, waardoor deelname aan de digitale markt essentieel is geworden. Voor veel bedrijven, vooral KMO’s, verloopt dit echter niet soepel. Velen hebben geen of een zwakke online aanwezigheid en beschikken niet over IT-personeel of de middelen om dit aan te nemen. Dit onderzoeksvoorstel onderzoekt welk low-code platform het meest geschikt is voor kleine tot middelgrote bussinesses om zelf een website te ontwikkelen. De volgende methode wordt gehanteerd: uit een breed aanbod aan low-code platformen wordt een selectie gemaakt op basis van vooraf gedefinieerde vereisten. Voor elk geselecteerd platform wordt een website gemaakt om het platform te testen en evalueren. Verwacht wordt dat de resultaten van dit onderzoek bedrijven zullen helpen bij het kiezen van het meest geschikte low-code platform voor de digitalisering van KMO’s.\end{abstract}
 
 \tableofcontents
 
